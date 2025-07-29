@@ -1,0 +1,40 @@
+sudo updatedb
+locate pen200.ovpn
+mkdir /home/kali/offsec
+sudo openvpn pen200.ovpn
+ls *.txt
+mv oldfilename.txt newfilename.txt
+ls *.txt
+touch newfilename.txt
+ls -l newfilename.txt
+./find_employee_names.py
+ls -l find_employee_names.py
+chmod +x find_employee_names.py 
+ls -l find_employee_names.py
+./find_employee_names.py
+chmod -x find_employee_names.py
+./find_employee_names
+./find_employee_names.py
+chmod +x find_employee_names.py 
+chmod +x /usr/bin/chmod
+ls -l find_employee_names.py
+ls -l /usr/bin/ls
+cp /usr/bin/ls chmodfix
+ls -l chmodfix
+./chmodfix -l chmodfix
+ls -l chmodfix
+cat /usr/bin/chmod > chmodfix
+ls -l chmodfix
+./chmodfix +x find_employee_names.py 
+./find_employee_names.py
+./chmodfix +x /usr/bin/chmod
+sudo ./chmodfix +x /usr/bin/chmod
+ls -l chmodfix
+wget https://github.com/obsidianmd/obsidian-releases/releases/download/v0.14.2/Obsidian-0.14.2.AppImage
+chmod +x Obsidian-0.14.2.AppImage
+./Obsidian-0.`14.2.AppImage
+-----------------------------------------------------------------------------------------------
+whois example.com -h 192.168.1.1
+ 
+ for ip in $(seq 200 254); do host 51.222.169.$ip; done | grep -v "notfound"
+
